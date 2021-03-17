@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.gpstrackerapp.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:name="com.example.gpstrackerapp.ui.signOut.HomeFragment"
+        android:label="@string/signout"
         tools:layout="@layout/fragment_home" />
 
     <fragment

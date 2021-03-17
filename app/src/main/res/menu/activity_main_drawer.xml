@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
+    >
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_joinCircle"
+            android:title="@string/join_circle"/>
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_myCircle"
+            android:title="@string/my_circle"/>
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_joinedCircle"
+            android:title="@string/joined_circle"/>
+        <item
+            android:id="@+id/nav_inviteMembers"
+            android:title="@string/invite_members"/>
+        <item
+            android:id="@+id/nav_shareLoc"
+            android:title="@string/share_location"/>
+
     </group>
 </menu>
